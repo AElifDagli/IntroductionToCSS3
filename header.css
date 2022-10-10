@@ -1,0 +1,111 @@
+header{
+    background-image: url(https://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    height: 150px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.537);
+    padding: 10px 50px 10px 50px;
+    margin: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.active{
+    background-color: white;
+}
+body{
+    padding: 10px;
+    margin: 10px;
+}
+img{
+    width: 170px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    display: block;
+    margin: 20px auto 20px auto;
+  
+     
+}
+
+.left{
+    display: inline-block;
+    width:15%;
+    float: left;
+    background-color: rgb(95, 117, 8);
+    height:600px;
+    
+    
+}
+
+.right{
+    display: inline-block;
+    width: 80%;
+    padding-left: 50px;
+    
+    
+    
+}
+
+th {
+  border-style:solid;
+  background: -webkit-linear-gradient(rgb(95,117,8),rgb(170, 191, 84));
+  border-color: lightblue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 2px;
+  font-family: Arial;
+  font-size: 16px;
+  text-align: center;
+}
+
+th:first-child {
+  text-align: left;
+  padding-left: 3ppx;
+  border-top-left-radius:10px;
+}
+th:last-child{
+  border-top-right-radius:10px;
+}
+td:first-child {
+  text-align: left;
+  padding-left: 3px
+}
+tr:last-child>td:first-child {
+  border-bottom-left-radius:10px;
+}
+tr:last-child>td:last-child {
+  border-bottom-right-radius:10px;
+}
+td {
+  border-style:none;
+  background-color: rgb(208, 223, 151);
+  font-family: Arial;
+  font-size: 14px;
+  text-align: center;
+  transition: .5s background-color;
+}
+tr:hover{
+  opacity: 100;
+}
+td:active{
+  background-color: lightblue;
+  text-align:center;
+  border-radius: 50px;
+
+}
+tr {
+  opacity: .8;
+}
+table{
+ width:600px;
+ height:400px;
+}
